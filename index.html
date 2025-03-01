@@ -1,1 +1,78 @@
-<!DOCTYPE html><html><head><title>My GitHub Pages Site</title></head><body><h1>Welcome to my GitHub Pages site!</h1></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钟滨彬的作品集</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- 第一部分：主页大图和标题 -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>欢迎来到@钟滨彬的作品集展示</h1>
+        </div>
+    </section>
+
+    <!-- 第二部分：收费写真作品集 -->
+    <section class="portfolio" id="portrait">
+        <h2>收费写真作品集展示</h2>
+        <div class="gallery">
+            <!-- 写真作品集1 -->
+            <div class="folder" onclick="window.location.href='portfolio/portrait/collection1.html'">
+                <img src="images/portrait/cover1.jpg" alt="写真作品集1" style="width: 100%; height: auto; aspect-ratio: 7008/4672; object-fit: contain;">
+                <h3>写真作品集1</h3>
+                <p>优雅都市风格写真拍摄</p>
+            </div>
+            <!-- 重复类似的div 9次 -->
+        </div>
+    </section>
+
+    <!-- 第三部分：婚礼跟拍作品集 -->
+    <section class="portfolio" id="wedding">
+        <h2>婚礼跟拍作品集展示</h2>
+        <div class="gallery">
+            <!-- 修改后的婚礼作品集1 -->
+            <div class="folder" onclick="window.location.href='portfolio/wedding/collection1.html'">
+                <img src="images/portrait(2)/cover3.jpg" alt="婚礼作品集1" style="width: 100%; height: auto;">
+                <h3>婚礼作品集1</h3>
+                <p>浪漫海边婚礼跟拍</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第四部分：联系表单 -->
+    <section class="contact" id="contact">
+        <h2>联系我</h2>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                <input type="hidden" name="access_key" value="72396867-7974-4a62-8127-03cf560f1170">
+                <input type="hidden" name="subject" value="新咨询 - 钟滨彬作品集网站">
+                <input type="checkbox" name="botcheck" style="display: none;">
+                
+                <div class="form-group">
+                    <label for="name">姓名：</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">邮箱：</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">内容：</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">发送</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2024 钟滨彬摄影作品集. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
