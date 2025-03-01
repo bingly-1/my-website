@@ -1,0 +1,30 @@
+.bash_history
+.cursor/
+.gitattributes
+.gitconfig
+.lesshst
+.matplotlib/
+.python_history
+.thumbnails/
+.yunti/
+3D Objects/
+AppData/
+Contacts/
+Desktop/
+Links/
+Music/
+NTUSER.DAT
+NTUSER.DAT{74776b86-dfa3-11ed-aae3-a5e9f2da0f29}.TM.blf
+NTUSER.DAT{74776b86-dfa3-11ed-aae3-a5e9f2da0f29}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{74776b86-dfa3-11ed-aae3-a5e9f2da0f29}.TMContainer00000000000000000002.regtrans-ms
+Portfolio/
+Saved Games/
+Searches/
+StableDiffusion
+Videos/
+douyin/
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+*lnk
+.viminfo
